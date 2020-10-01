@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 
-export const Heading = ({ size, weight, color, text, ...props }) => {
+export const Typography = ({ variant, weight, color, text, ...props }) => {
   return (
-    <div className={['heading',`heading--${size}`].join(' ')}
+    <div className={['typography',`${variant}`].join(' ')}
       {...props}
     >
       { text }
@@ -13,8 +13,8 @@ export const Heading = ({ size, weight, color, text, ...props }) => {
   );
 };
 
-Heading.propTypes = {
-  size: PropTypes.string,
+Typography.propTypes = {
+  variant: PropTypes.string,
   weight: PropTypes.string,
   color: PropTypes.string,
   text: PropTypes.string,

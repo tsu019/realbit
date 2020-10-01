@@ -1,0 +1,14 @@
+.input {
+  display: block;
+  padding: 8px 16px;
+  border-radius: 2px;
+  border: 2px solid #F3F4F5;
+  font-size: 22px;
+  font-family: 'Inter', 'san-serif';
+  color: #797979;
+}
+
+.primary {
+  height: 4.8rem;
+  width: 30rem;
+}
