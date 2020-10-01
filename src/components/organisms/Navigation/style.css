@@ -1,0 +1,33 @@
+.navigation--dark {
+  background-color: #11131F;
+}
+
+.navigation--light {
+  background-color: #FFFFFF;
+}
+
+.navigation {
+  height: 56px;
+  padding: 24px 48px;
+  font-family: 'Inter', 'san-serif';
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list--dark {
+  color: #FFFFFF;
+}
+
+.list--light {
+  color: #11131F;
+}
+
+.navigation-buttons {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: flex-end;
+}

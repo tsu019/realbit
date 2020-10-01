@@ -1,0 +1,17 @@
+{
+  "variant": {
+    "label": "Variant",
+    "options": {
+      "dark": "dark",
+      "light": "light"
+    },
+    "default": "dark",
+    "group": "variation"
+  },
+  "items": {
+    "label": "Items",
+    "default": [],
+    "group": "content"
+  }
+}
+
