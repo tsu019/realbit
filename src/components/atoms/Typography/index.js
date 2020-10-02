@@ -5,7 +5,8 @@ import './style.css';
 
 export const Typography = ({ variant, weight, color, text, ...props }) => {
   return (
-    <div className={['typography',`${variant}`].join(' ')}
+    <div className={['typography', variant].join(' ')}
+          style={{color: color}}
       {...props}
     >
       {props.children}
