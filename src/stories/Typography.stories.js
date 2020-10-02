@@ -50,3 +50,11 @@ Body2.args = {
   color: '#11131F',
   text: 'Body 2'
 }
+
+export const Label = Template.bind({});
+Label.arg = {
+  variant: 'label',
+  weight: '700',
+  color: '#FFF',
+  text: 'Label'
+}
