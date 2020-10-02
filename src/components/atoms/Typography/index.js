@@ -8,6 +8,7 @@ export const Typography = ({ variant, weight, color, text, ...props }) => {
     <div className={['typography',`${variant}`].join(' ')}
       {...props}
     >
+      {props.children}
       { text }
     </div>
   );

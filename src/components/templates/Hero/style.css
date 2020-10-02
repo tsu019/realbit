@@ -1,0 +1,25 @@
+.hero-wrapper {
+  height: 100vh;
+  background-color: #11131F;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 4.8rem;
+  color: #FFF;
+  
+}
+
+.body1 {
+  color: rgba(225, 225, 225, 0.8);
+  padding-top: 3.2rem;
+}
+
+.hero-content {
+  padding-top: 7.2rem;
+}
+
+.hero-cta {
+  padding-top: 4rem;
+  padding-bottom: 8.8rem;
+}
