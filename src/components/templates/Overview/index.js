@@ -18,6 +18,9 @@ const Overview = () => {
             <Typography color="#FFF" variant="body1">
               Our technology sets up a sales funnel to your website by making it easier for leads to find your website. Our websites also allow you to talk with your customers directly. Collect your leads’ email and blast them with email marketing.
             </Typography>
+            <div className="pt-16">
+              <Button label="Start realbit for free" primary={true} />
+            </div>  
         </div>
       </div>
     </div>
