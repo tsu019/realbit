@@ -8,12 +8,12 @@ const Hero = () => {
   return(
     <div className="hero-wrapper">
       <Navigation />
-      <div className="hero-content">
+      <div className="hero-content mx-8 md:mx-0">
         <Typography variant="h1">
           We Make Lead Gen Easier
         </Typography>
-        <Typography variant="body1">
-        Build, launch, and optimize custom landing pages for any campaign — <br /> without developers or tech bottlenecks.
+        <Typography variant="body1 w-full md:w-1/2 mx-auto">
+        Build, launch, and optimize custom landing pages for any campaign — without developers or tech bottlenecks.
         </Typography>
       </div>
       <div className="hero-cta space-x-12">
