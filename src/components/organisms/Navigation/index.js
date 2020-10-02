@@ -13,8 +13,10 @@ const Navigation = ({ variant, items}) => (
         <a className={['list', `list--${variant}`].join(' ')} href={item.url}>{item.title}</a>
       )) }
     <div className="navigation-buttons">
-      <Button label="Preview the builder" className="storybook-button storybook-button--primary" />
-      <Button label="Start free trial" className="storybook-button storybook-button--secondary" />
+      <Button label="Preview the builder" primary={true} />
+      <div style={{marginLeft: '2.4rem'}}>
+        <Button label="Start free trial" primary={false} />
+      </div>
     </div>
   </div>
 );

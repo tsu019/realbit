@@ -9,18 +9,18 @@ const Hero = () => {
     <div className="hero-wrapper">
       <Navigation />
       <div className="hero-content">
-        <Typography className="h1">
+        <Typography variant="h1">
           We Make Lead Gen Easier
         </Typography>
-        <Typography className="body1">
+        <Typography variant="body1">
         Build, launch, and optimize custom landing pages for any campaign — <br /> without developers or tech bottlenecks.
         </Typography>
       </div>
-      <div className="hero-cta">
-        <Button label="Start Realbit for free" className="storybook-button storybook-button--primary" />
-        <Button label="See how Realbit works" className="storybook-button storybook-button--secondary" />
+      <div className="hero-cta space-x-12">
+        <Button label="Start Realbit for free" primary={true} />
+        <Button label="See how Realbit works" primary={false} />
       </div>
-      <img src='./hero-dashboard.png' style={{width: '80%'}}/>
+      <img className="mx-auto w-4/5" src='./hero-dashboard.png'/>
     </div>
   )
 }
