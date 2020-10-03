@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 import { Button } from '../../atoms/Button';
 import { Typography } from '../../atoms/Typography';
 
