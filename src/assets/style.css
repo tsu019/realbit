@@ -18823,6 +18823,12 @@ code {
   margin: 0 auto;
 }
 
+.section-wrapper {
+  height: atuo;
+  background-color: #11131F;
+  padding-bottom: 8rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
