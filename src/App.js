@@ -1,17 +1,11 @@
 import React from 'react';
 
-import Hero from '../src/components/templates/Hero';
-import Overview from '../src/components/templates/Overview';
-import Features from '../src/components/templates/Features';
+import Landing from '../src/components/pages/Landing';
 
 function App() {
   return (
     <div>
-      <header>
-        <Hero />
-        <Overview />
-        <Features />
-      </header>
+      <Landing />
     </div>
   );
 }
