@@ -13,7 +13,7 @@ const Hero = () => {
         <Typography color="#FFF" variant="h1">
           We Make Lead Gen Easier
         </Typography>
-        <Typography color="rgba(225, 225, 225, 0.8)" variant="body1 w-full md:w-1/2 mx-auto">
+        <Typography color="rgba(225, 225, 225, 0.8)" variant="body1 w-full md:w-1/2 mx-auto pt-12">
         Build, launch, and optimize custom landing pages for any campaign — without developers or tech bottlenecks.
         </Typography>
       </div>
@@ -22,7 +22,7 @@ const Hero = () => {
         <Button label="See how Realbit works" primary={false} />
       </div>
       <img className="mx-auto w-4/5" src='./hero-dashboard.png'/>
-      <div className="mt-32 hero-content">
+      <div className="mt-24 hero-content">
         <Typography color="#FFF" variant="label">
           Trusted by the community
         </Typography>
