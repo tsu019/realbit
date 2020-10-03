@@ -7,7 +7,7 @@ import { Typography } from '../../atoms/Typography';
 const Hero = () => {
   return(
     <div>
-      <div className="hero-wrapper">
+      <div className="section-wrapper">
       <Navigation />
       <div className="hero-content mx-8 md:mx-0">
         <Typography color="#FFF" variant="h1">
