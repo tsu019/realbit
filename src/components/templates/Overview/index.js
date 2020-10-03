@@ -1,14 +1,13 @@
 import React from 'react';
-import './style.css';
 import { Button } from '../../atoms/Button';
 import { Typography } from '../../atoms/Typography';
 
 const Overview = () => {
   return(
-    <div className="section-wrapper flex pt-40 md:pt-64" style={{backgroundColor: '#11131F'}}>
+    <div className="section-wrapper flex pt-40">
         <div className="container px-12 md:px-0">
          <div className="left-0 w-full md:w-1/2">
-            <Typography color="#FFF" variant="label" className="pb-8">
+            <Typography color="#FFF" variant="label pb-8">
               Build
             </Typography>
             <Typography color="#FFF" variant="h1">
