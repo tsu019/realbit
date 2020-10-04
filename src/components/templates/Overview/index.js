@@ -4,7 +4,7 @@ import { Typography } from '../../atoms/Typography';
 
 const Overview = () => {
   return(
-    <div className="section-wrapper flex pt-40">
+    <div className="section-wrapper flex">
         <div className="container px-12 md:px-0">
          <div className="left-0 w-full md:w-1/2">
             <Typography color="#FFF" variant="label pb-8">
