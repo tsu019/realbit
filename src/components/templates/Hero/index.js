@@ -10,8 +10,8 @@ const Hero = () => {
       <div className="section-wrapper">
       <Navigation />
       <div className="hero-content mx-8 md:mx-0">
-        <Typography color="#FFF" variant="h1">
-          We Make Lead Gen Easier
+        <Typography color="#FFF" variant="h1 w-full md:w-1/2 mx-auto">
+          Boost Your Conversion Rates with AI-Powered Optimization
         </Typography>
         <Typography color="rgba(225, 225, 225, 0.8)" variant="body1 w-full md:w-1/2 mx-auto pt-12">
         Build, launch, and optimize custom landing pages for any campaign — without developers or tech bottlenecks.
