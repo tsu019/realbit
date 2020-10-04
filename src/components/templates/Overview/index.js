@@ -11,9 +11,9 @@ const Overview = () => {
               Build
             </Typography>
             <Typography color="#FFF" variant="h1">
-              Build Websites That <br/ > Drive Conversions
+              Pages using smart traffic see an average conversion lift of 30%
             </Typography>
-            <Typography color="#FFF" variant="body1">
+            <Typography color="#FFF" variant="body1 pt-12">
               Our technology sets up a sales funnel to your website by making it easier for leads to find your website. Our websites also allow you to talk with your customers directly. Collect your leads’ email and blast them with email marketing.
             </Typography>
             <div className="pt-16">

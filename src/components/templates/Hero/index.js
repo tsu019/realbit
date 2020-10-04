@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
       <div className="section-wrapper">
       <Navigation />
-      <div className="hero-content mx-8 md:mx-0">
+      <div className="pt-12 md:pt-32 mx-8 md:mx-0 text-center">
         <Typography color="#FFF" variant="h1 w-full md:w-1/2 mx-auto">
           Boost Your Conversion Rates with AI-Powered Optimization
         </Typography>
@@ -17,18 +17,18 @@ const Hero = () => {
         Build, launch, and optimize custom landing pages for any campaign — without developers or tech bottlenecks.
         </Typography>
       </div>
-      <div className="hero-cta space-x-12">
+      <div className="hero-cta space-y-8 md:space-x-12">
         <Button label="Start Realbit for free" primary={true} />
         <Button label="See how Realbit works" primary={false} />
       </div>
-      <img className="mx-auto w-4/5" src='./hero-dashboard.png'/>
+      <img className="w-full px-8 mx-auto md:w-4/5" src='./hero-dashboard.png'/>
       <div className="mt-24 hero-content">
         <Typography color="#FFF" variant="label">
           Trusted by the community
         </Typography>
-        <div className="flex justify-center text-center space-x-32 mt-16">
-          <img src='./sothebys.svg' />
-          <img src='./hg.svg' />
+        <div className="flex justify-center text-center space-x-8 md:space-x-32 mt-16">
+          <img src='./sothebys.svg' style={{height: '4rem'}}/>
+          <img src='./hg.svg' style={{height: '4rem'}}/>
         </div>
       </div>
       </div>
