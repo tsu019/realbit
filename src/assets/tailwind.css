@@ -26,3 +26,8 @@ code {
   max-width: 120rem;
   margin: 0 auto;
 }
+
+.section-wrapper {
+	background-color: rgb(17,19,31);
+	padding-bottom: 10rem;
+}

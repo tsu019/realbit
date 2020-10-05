@@ -18824,9 +18824,7 @@ code {
 }
 
 .section-wrapper {
-  height: atuo;
-  background-color: #11131F;
-  padding-bottom: 10rem;
+  background-color: rgb(17,19,31);
 }
 
 @media (min-width: 640px) {
